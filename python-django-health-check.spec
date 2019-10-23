@@ -3,7 +3,7 @@
 Name:           python-%{pypi_name}
 Version:        3.11.0
 Release:        1%{?dist}
-Summary:        Checks for various conditions and provides reports when anomalous behavior is detected
+Summary:        Checks for various conditions and provides reports
 
 License:        MIT
 URL:            https://github.com/KristianOellegaard/django-health-check
@@ -31,7 +31,7 @@ Requires:       python3-django
 %description -n python3-%{pypi_name} %_description
 
 %package -n python-%{pypi_name}-doc
-Summary:        django-health-check documentation
+Summary:        Documentation for django-health-check
 %description -n python-%{pypi_name}-doc
 Documentation for django-health-check
 
